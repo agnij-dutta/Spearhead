@@ -1,0 +1,9 @@
+#!/bin/bash
+#Copies new build files to client
+cp -a aincradd-linux-i686 ../client/aincradd-linux-i386-unpatched 
+cp -a aincradd-mikrotik-mipsbe ../client/aincradd-mikrotik-mipsbe-unpatched 
+cp -a aincradd-mikrotik-mipsle ../client/aincradd-mikrotik-mipsle-unpatched 
+cp -a aincradd-mikrotik-i386 ../client/aincradd-mikrotik-i386-unpatched 
+cp -a aincradd-mikrotik-ppc ../client/aincradd-mikrotik-ppc-unpatched 
+cp -a aincradd-solaris-sparc ../client/aincradd-solaris-sparc-unpatched 
+cp -a aincradd-solaris-i386 ../client/aincradd-solaris-i386-unpatched
